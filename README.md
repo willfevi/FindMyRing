@@ -11,7 +11,8 @@ O site foi desenvolvido para tornar essa estimativa acessível, fornecendo uma f
 3. O resultado é exibido imediatamente na tela, dando ao usuário uma estimativa precisa e prática.
 
 ## Imagem do Site
-![Find My Ring Screenshot](Captura de tela 2024-09-17 113642.png)
+![Captura de tela](Captura de tela 2024-09-17 113642.png)
+
 
 ## Tecnologias Utilizadas
 - **HTML5** e **CSS3**: Para a estruturação e estilização do site.
