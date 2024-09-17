@@ -5,20 +5,28 @@
     padding: 0;
 }
 
+/* Importando Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
 /* Paleta de Cores */
 :root {
-    --primary-color: #292929;
-    --secondary-color: #d4a373;
-    --accent-color: #ffffff;
-    --background-color: #f7f7f7;
-    --form-bg-color: #f2f2f2;
+    --primary-color: #c9a87c; /* Gold color for text */
+    --secondary-color: #ba9872; /* Darker gold for buttons and highlights */
+    --accent-color: #ffffff; /* White color for accents */
+    --background-color: #f7e8e3; /* Soft pink background color */
+    --form-bg-color: #ffffff; /* White color for form backgrounds */
+    --input-bg-color: #ffffff; /* Background color for inputs */
+    --input-border-color: #d0c0b0; /* Soft gold border for inputs */
 }
 
 /* Estilo global */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-color);
     background-color: var(--background-color);
+    background-image: url('URL_TO_YOUR_IMAGE');
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -38,16 +46,15 @@ body {
 
 .header--container {
     display: flex;
-    justify-content: flex-start; /* Posiciona à esquerda */
+    justify-content: flex-start;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .header--container .logo {
-    width: 120px; /* Aumenta o tamanho da logo */
+    width: 120px;
     height: auto;
-    margin-left: 20px; /* Adiciona um espaçamento da borda esquerda */
 }
 
 /* Estilo principal */
@@ -62,27 +69,26 @@ body {
 
 /* Estilo da imagem da aliança */
 .alianca-img {
+    width: 100%;
     max-width: 400px;
     height: auto;
     margin-right: 5%;
-    flex: 1;
-    align-self: flex-start;
 }
 
 /* Estilo do formulário */
 .container {
     background-color: var(--form-bg-color);
     padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
-    flex: 1;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
     max-width: 400px;
-    margin-left: 5%;
 }
 
 h4 {
     font-size: 1.6rem;
     color: var(--primary-color);
+    font-family: 'Playfair Display', serif;
     margin-bottom: 20px;
 }
 
@@ -92,41 +98,43 @@ form {
 }
 
 label {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     font-size: 1.2rem;
     color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 select, input {
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
     width: 100%;
-    border: 2px solid var(--primary-color);
+    background-color: var(--input-bg-color);
+    border: 1px solid var(--input-border-color);
     border-radius: 8px;
     font-size: 1rem;
-    background-color: var(--accent-color);
     color: var(--primary-color);
 }
 
 select:focus, input:focus {
     outline: none;
     border-color: var(--secondary-color);
+    background-color: var(--accent-color);
 }
 
 button {
-    padding: 12px 20px;
+    padding: 15px 25px;
     background-color: var(--secondary-color);
     color: var(--accent-color);
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: var(--primary-color);
+    background-color: #c9a87c;
 }
 
 /* Resultados */
