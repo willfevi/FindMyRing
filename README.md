@@ -11,7 +11,7 @@ O site foi desenvolvido para tornar essa estimativa acessível, fornecendo uma f
 3. O resultado é exibido imediatamente na tela, dando ao usuário uma estimativa precisa e prática.
 
 ## Imagem do Site
-![Captura de tela](./Captura de tela 2024-09-17 113642.png)
+![Captura de tela](/Capturadetela .png)
 
 
 ## Tecnologias Utilizadas
